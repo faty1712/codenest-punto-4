@@ -26,4 +26,4 @@ El archivo `img/logo.png` conserva el logotipo exacto de la versión anterior. L
 
 ## Publicación
 
-La carpeta está preparada para hosting estático. Esta versión se publicará en una URL nueva para conservar sin cambios el sitio anterior `CodeNest-Landing`. Consulta `MEJORAS.md` para las verificaciones y pendientes.
+Publicado en [GitHub Pages](https://faty1712.github.io/codenest-punto-4/). El sitio anterior `CodeNest-Landing` se conserva sin cambios. Consulta `MEJORAS.md` para las verificaciones y pendientes.

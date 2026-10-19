@@ -20,6 +20,7 @@ Comparación del folder original de Punto 4 con esta versión.
 - Validación de IDs únicos, anclas, enlaces locales, imágenes con texto alternativo y acciones POST en las siete páginas.
 - Pruebas automatizadas del formulario con respuestas simuladas: campos inválidos, éxito HTTP 204 sin JSON, error HTTP y honeypot.
 - Comprobación de sintaxis de JavaScript y revisión de breakpoints y recursos gráficos.
+- GitHub Pages publica correctamente las siete páginas y seis recursos; la URL anterior también sigue respondiendo.
 - No se enviaron datos reales de prueba a Formspree; el correo receptor y el envío real deben confirmarse antes de anunciar el servicio.
 
 ## Observaciones de Sprint Review
@@ -28,4 +29,4 @@ El folder y el DOCX adjuntos no incluyen un listado separado de observaciones de
 
 ## Pendientes de confirmación
 
-Los correos, teléfonos, próximos inicios y enlaces sociales existentes en las páginas se conservaron, pero deben confirmarse como datos institucionales vigentes antes de usarlos como información oficial. La versión se publicará en una URL nueva; el sitio anterior `CodeNest-Landing` se conserva sin cambios.
+Los correos, teléfonos, próximos inicios y enlaces sociales existentes en las páginas se conservaron, pero deben confirmarse como datos institucionales vigentes antes de usarlos como información oficial. La versión se publicó en [codenest-punto-4](https://faty1712.github.io/codenest-punto-4/); el sitio anterior `CodeNest-Landing` se conserva sin cambios.
