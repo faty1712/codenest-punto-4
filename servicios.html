@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Explora el catálogo de cursos y portafolio formativo de CodeNest: Front-End, Back-End, Full Stack, Bases de Datos y Fundamentos.">
+  <title>Cursos | CodeNest</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="top-notice-bar">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge-highlight">RUTAS CORTAS</span>
+        <span>Programas prácticos de 8 a 16 semanas con mentores activos</span>
+      </div>
+      <div class="d-none d-md-flex align-items-center gap-3">
+        <span><i class="bi bi-geo-alt-fill text-info me-1"></i> San Salvador, El Salvador</span>
+        <span><i class="bi bi-envelope-fill text-info me-1"></i> contacto@codenest.edu.sv</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-xl navbar-dark main-navigation" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand brand-logo-container" href="index.html" aria-label="CodeNest, inicio">
+        <img src="img/logo.png" alt="Logotipo de CodeNest" width="216" height="144">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCodeNest"
+        aria-controls="navbarCodeNest" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCodeNest">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="bi bi-house-door me-1"></i> Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html"><i class="bi bi-people me-1"></i> Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="identidad.html"><i class="bi bi-palette me-1"></i> Identidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="servicios.html" aria-current="page"><i class="bi bi-code-slash me-1"></i>
+              Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html"><i class="bi bi-question-circle me-1"></i> Preguntas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html"><i class="bi bi-journal-text me-1"></i> Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html"><i class="bi bi-envelope me-1"></i> Contacto</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a href="servicios.html" class="btn btn-nav-cta">Comenzar Ahora</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="py-5 text-white"
+      style="background: var(--cn-gradient-dark); border-bottom: 2px solid rgba(59, 130, 246, 0.2);">
+      <div class="container text-center">
+        <span class="section-tag bg-opacity-25 text-info">OFERTA ACADÉMICA</span>
+        <h1 class="hero-title my-2">Cursos & <span class="hero-highlight">Portafolio</span></h1>
+        <p class="hero-subtitle mx-auto">Rutas de aprendizaje diseñadas con base en la demanda real de la industria del
+          software.</p>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white" aria-labelledby="catalogo-heading">
+      <div class="container">
+        <header class="section-header text-center">
+          <span class="section-tag">Rutas de Aprendizaje</span>
+          <h2 id="catalogo-heading" class="section-title">Portafolio de Cursos Formativos</h2>
+          <p class="section-subtitle mx-auto">Cada curso culmina con proyectos tangibles para incorporar inmediatamente
+            en tu portafolio profesional.</p>
+        </header>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-terminal-dash"></i>
+              </div>
+              <h4>1. Fundamentos de la Programación</h4>
+              <p>Ideal para personas que inician desde cero. Aprende lógica algorítmica, resolución de problemas y
+                estructuras de datos elementales.</p>
+              <ul class="list-unstyled small text-muted my-3">
+                <li><i class="bi bi-clock text-primary me-2"></i><strong>Duración:</strong> 8 semanas</li>
+                <li><i class="bi bi-laptop text-primary me-2"></i><strong>Modalidad:</strong> 100% Online</li>
+                <li><i class="bi bi-folder-check text-primary me-2"></i><strong>Proyecto:</strong> Aplicación de consola
+                  en Python/JS</li>
+              </ul>
+              <footer class="semantic-card-footer">
+                <a href="contacto.html" class="btn btn-sm btn-outline-primary w-100">Solicitar Información</a>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-layout-text-window-reverse"></i>
+              </div>
+              <h4>2. Desarrollo Web Front-End</h4>
+              <p>Maqueta interfaces modernas, accesibles y responsivas implementando HTML5 semántico, CSS3 avanzado,
+                Bootstrap 5 y JavaScript dinámico.</p>
+              <ul class="list-unstyled small text-muted my-3">
+                <li><i class="bi bi-clock text-info me-2"></i><strong>Duración:</strong> 12 semanas</li>
+                <li><i class="bi bi-laptop text-info me-2"></i><strong>Modalidad:</strong> Online con mentorías</li>
+                <li><i class="bi bi-folder-check text-info me-2"></i><strong>Proyecto:</strong> Sitio web interactivo
+                  responsive</li>
+              </ul>
+              <footer class="semantic-card-footer">
+                <a href="contacto.html" class="btn btn-sm btn-outline-primary w-100">Solicitar Información</a>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-server"></i>
+              </div>
+              <h4>3. Desarrollo Web Back-End</h4>
+              <p>Crea servidores robustos, APIs REST seguras y maneja la lógica de negocio utilizando Node.js, Express y
+                autenticación de usuarios.</p>
+              <ul class="list-unstyled small text-muted my-3">
+                <li><i class="bi bi-clock text-success me-2"></i><strong>Duración:</strong> 12 semanas</li>
+                <li><i class="bi bi-laptop text-success me-2"></i><strong>Modalidad:</strong> Online práctica</li>
+                <li><i class="bi bi-folder-check text-success me-2"></i><strong>Proyecto:</strong> API REST funcional
+                  autenticada</li>
+              </ul>
+              <footer class="semantic-card-footer">
+                <a href="contacto.html" class="btn btn-sm btn-outline-primary w-100">Solicitar Información</a>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-layers-fill"></i>
+              </div>
+              <h4>4. Desarrollo Full Stack</h4>
+              <p>El programa más completo: conecta la experiencia de usuario del frontend con el backend y bases de
+                datos en aplicaciones web integrales.</p>
+              <ul class="list-unstyled small text-muted my-3">
+                <li><i class="bi bi-clock text-warning me-2"></i><strong>Duración:</strong> 16 semanas</li>
+                <li><i class="bi bi-laptop text-warning me-2"></i><strong>Modalidad:</strong> Online intensivo</li>
+                <li><i class="bi bi-folder-check text-warning me-2"></i><strong>Proyecto:</strong> Plataforma web
+                  full-stack desplegada</li>
+              </ul>
+              <footer class="semantic-card-footer">
+                <a href="contacto.html" class="btn btn-sm btn-outline-primary w-100">Solicitar Información</a>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-database-fill-gear"></i>
+              </div>
+              <h4>5. Bases de Datos y SQL</h4>
+              <p>Domina el diseño conceptual, modelado relacional y consultas complejas en PostgreSQL y MySQL para
+                gestionar información empresarial.</p>
+              <ul class="list-unstyled small text-muted my-3">
+                <li><i class="bi bi-clock text-danger me-2"></i><strong>Duración:</strong> 8 semanas</li>
+                <li><i class="bi bi-laptop text-danger me-2"></i><strong>Modalidad:</strong> 100% Online</li>
+                <li><i class="bi bi-folder-check text-danger me-2"></i><strong>Proyecto:</strong> Modelo relacional y
+                  consultas analíticas</li>
+              </ul>
+              <footer class="semantic-card-footer">
+                <a href="contacto.html" class="btn btn-sm btn-outline-primary w-100">Solicitar Información</a>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="semantic-card">
+              <div class="card-icon-badge">
+                <i class="bi bi-phone-fill"></i>
+              </div>
+              <h4>6. Introducción a Aplicaciones</h4>
+              <p>Aprende las bases de las arquitecturas de software modernas y el desarrollo de interfaces móviles
+                multiplataforma para Android y la web.</p>
+              <ul class="list-unstyled small text-muted my-3">
+                <li><i class="bi bi-clock text-primary me-2"></i><strong>Duración:</strong> 10 semanas</li>
+                <li><i class="bi bi-laptop text-primary me-2"></i><strong>Modalidad:</strong> Online guiada</li>
+                <li><i class="bi bi-folder-check text-primary me-2"></i><strong>Proyecto:</strong> Prototipo de
+                  aplicación funcional</li>
+              </ul>
+              <footer class="semantic-card-footer">
+                <a href="contacto.html" class="btn btn-sm btn-outline-primary w-100">Solicitar Información</a>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-color: #F8FAFC;" aria-labelledby="galeria-heading">
+      <div class="container">
+        <header class="section-header text-center">
+          <span class="section-tag">Contenido Visual</span>
+          <h2 id="galeria-heading" class="section-title">Galería Multimedia Institucional</h2>
+          <p class="section-subtitle mx-auto">Visuales sobre nuestras clases, tecnologías impartidas e identidad de
+            marca.</p>
+        </header>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <article class="p-3 bg-white rounded-3 shadow-sm border text-center">
+              <img src="img/logo-variantes.jpg" alt="Variantes cromáticas del isotipo CodeNest"
+                class="img-fluid rounded mb-3 shadow-sm">
+              <h5 class="fw-bold">Variantes Cromáticas Institucionales</h5>
+              <p class="small text-muted mb-0">Aplicación del logotipo en versión a color, verde esmeralda, carmín y
+                morado tecnológico.</p>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article class="p-3 bg-white rounded-3 shadow-sm border text-center">
+              <img src="img/logo-monocromatico-negativo.jpg" alt="Versión monocromática negativa CodeNest"
+                class="img-fluid rounded mb-3 shadow-sm" style="max-height: 230px;">
+              <h5 class="fw-bold">Versión Monocromática Oficial</h5>
+              <p class="small text-muted mb-0">Diseño preparado para contrastes altos, impresión de certificados y
+                soportes digitales.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="mt-5 p-4 bg-white rounded-3 border">
+          <h4 class="fw-bold text-center mb-4"><i class="bi bi-code-slash text-primary me-2"></i>Tecnologías y Lenguajes
+            que Dominarás</h4>
+          <div class="row text-center g-3">
+            <div class="col-4 col-md-2">
+              <div class="p-3 bg-light rounded"><i class="bi bi-filetype-html text-danger fs-1"></i>
+                <p class="small fw-bold mb-0 mt-2">HTML5</p>
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="p-3 bg-light rounded"><i class="bi bi-filetype-css text-primary fs-1"></i>
+                <p class="small fw-bold mb-0 mt-2">CSS3</p>
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="p-3 bg-light rounded"><i class="bi bi-filetype-js text-warning fs-1"></i>
+                <p class="small fw-bold mb-0 mt-2">JavaScript</p>
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="p-3 bg-light rounded"><i class="bi bi-bootstrap-fill text-purple fs-1"
+                  style="color: #7952B3;"></i>
+                <p class="small fw-bold mb-0 mt-2">Bootstrap</p>
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="p-3 bg-light rounded"><i class="bi bi-database-fill text-secondary fs-1"></i>
+                <p class="small fw-bold mb-0 mt-2">SQL</p>
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="p-3 bg-light rounded"><i class="bi bi-git text-danger fs-1"></i>
+                <p class="small fw-bold mb-0 mt-2">Git & GitHub</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container my-5">
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <section class="p-4 bg-white rounded-3 border shadow-sm" aria-labelledby="metodologia-title">
+            <h3 id="metodologia-title" class="fw-bold text-dark mb-3"><i
+                class="bi bi-award-fill text-warning me-2"></i>Certificación Práctica Garantizada</h3>
+            <p>
+              Al completar satisfactoriamente tu cohorte en CodeNest, recibes una certificación digital verificable con
+              código único institucional y el respaldo de un portafolio de proyectos reales alojados en GitHub.
+            </p>
+            <div class="row g-3">
+              <div class="col-sm-4 text-center">
+                <div class="p-3 bg-light rounded">
+                  <span class="fs-4 fw-bold text-primary">100%</span>
+                  <p class="small mb-0 text-muted">Práctico</p>
+                </div>
+              </div>
+              <div class="col-sm-4 text-center">
+                <div class="p-3 bg-light rounded">
+                  <span class="fs-4 fw-bold text-info">15</span>
+                  <p class="small mb-0 text-muted">Estudiantes máx.</p>
+                </div>
+              </div>
+              <div class="col-sm-4 text-center">
+                <div class="p-3 bg-light rounded">
+                  <span class="fs-4 fw-bold text-success">+3</span>
+                  <p class="small mb-0 text-muted">Proyectos reales</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-lg-4">
+          <aside class="semantic-aside mt-lg-0" aria-label="Beneficios de financiamiento">
+            <h4 class="aside-title"><i class="bi bi-shield-check text-primary"></i> Financiamiento Accesible</h4>
+            <p class="small text-muted mb-2">Creemos que el dinero no debe ser un obstáculo para ingresar al mundo
+              digital.</p>
+            <ul class="list-unstyled small mb-3">
+              <li class="py-1"><i class="bi bi-check2 text-success me-1"></i>Planes de cuotas sin intereses</li>
+              <li class="py-1"><i class="bi bi-check2 text-success me-1"></i>Becas de hasta el 50% de descuento</li>
+              <li class="py-1"><i class="bi bi-check2 text-success me-1"></i>Sin contratos bancarios forzosos</li>
+            </ul>
+            <a href="contacto.html" class="btn btn-sm btn-primary w-100">Consultar Plan de Pagos</a>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer" aria-label="Pie de página institucional">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a href="index.html" class="brand-logo-container mb-3" aria-label="CodeNest, inicio">
+            <img src="img/logo.png" alt="Logotipo de CodeNest" width="216" height="144">
+          </a>
+          <p class="footer-brand-desc">
+            "Tu primer paso, escrito en código."<br>
+            Academia de formación tecnológica práctica, corta y accesible en Centroamérica.
+          </p>
+          <div class="d-flex gap-3 fs-5 mt-3">
+            <a href="https://facebook.com" class="text-white-50" aria-label="Facebook CodeNest" target="_blank"
+              rel="noopener"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com" class="text-white-50" aria-label="Instagram CodeNest" target="_blank"
+              rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a href="https://x.com" class="text-white-50" aria-label="X (Twitter) CodeNest" target="_blank"
+              rel="noopener"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://youtube.com" class="text-white-50" aria-label="YouTube CodeNest" target="_blank"
+              rel="noopener"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-heading">Navegación</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="identidad.html">Identidad de marca</a></li>
+            <li><a href="servicios.html">Cursos & Rutas</a></li>
+            <li><a href="faq.html">Preguntas</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Rutas Formativas</h5>
+          <ul class="footer-links">
+            <li><a href="servicios.html">Fundamentos de Programación</a></li>
+            <li><a href="servicios.html">Desarrollo Web Front-End</a></li>
+            <li><a href="servicios.html">Desarrollo Web Back-End</a></li>
+            <li><a href="servicios.html">Desarrollo Full Stack</a></li>
+            <li><a href="servicios.html">Bases de Datos y SQL</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Contacto</h5>
+          <ul class="footer-links text-light small">
+            <li class="mb-2"><i class="bi bi-geo-alt text-info me-2"></i> San Salvador, El Salvador</li>
+            <li class="mb-2"><i class="bi bi-envelope text-info me-2"></i> contacto@codenest.edu.sv</li>
+            <li class="mb-2"><i class="bi bi-telephone text-info me-2"></i> +503 2200-0000</li>
+            <li class="mb-2"><i class="bi bi-clock text-info me-2"></i> Lun - Sáb: 8:00 AM - 6:00 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <p class="mb-0">&copy; <span id="current-year">2026</span> CodeNest. Todos los derechos reservados.</p>
+        <p class="mb-0 text-muted small">
+          Universidad Don Bosco | LME901 - Lenguajes de Marcado y Estilo Web | Grupo 2
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
