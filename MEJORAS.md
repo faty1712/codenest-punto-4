@@ -5,7 +5,7 @@ Comparación del folder original de Punto 4 con esta versión.
 | Área | Antes | Mejora |
 | --- | --- | --- |
 | Recursos gráficos | Las páginas referenciaban logotipos que no estaban presentes en `img/`. | Se reutilizó el PNG exacto del logotipo de la versión anterior y se integraron las variantes del DOCX; se dejó fuera de la publicación la portada académica con identificadores personales. |
-| Adaptabilidad | El CSS no tenía breakpoints propios y varias filas con separación amplia podían desbordarse en teléfonos. | Se añadieron reglas para teléfono, tablet y escritorio; se ajustaron las separaciones de filas en Nosotros, Blog y Contacto; se conservan tablas desplazables y el menú móvil se probó al abrir y cerrar. |
+| Adaptabilidad | El CSS no tenía breakpoints propios y varias filas con separación amplia podían desbordarse en teléfonos; la portada conservaba mucho espacio vertical en tablet. | Se añadieron reglas para teléfono, tablet y escritorio; se redujo el espacio de la portada específicamente entre 768 y 991 px, se ajustaron las filas de Nosotros, Blog y Contacto y se conservaron las tablas desplazables y el menú móvil probado al abrir y cerrar. |
 | Identidad de marca | La paleta y lineamientos estaban únicamente en el documento fuente. | Se creó `identidad.html` con logos, tabla de colores, tipografía, versiones cromáticas, área de protección y normas de uso. |
 | Información empresarial | Público objetivo, persona usuaria, benchmarking y buenas prácticas no se encontraban reunidos en el sitio. | Se integraron en la página Nosotros junto con misión, visión, valores, objetivos, propuesta, beneficios y diferenciadores. |
 | Contacto | El formulario usaba `action="#"` y mostraba un mensaje de éxito simulado; teléfono sin patrón ni límites. | Se conectó Formspree, se añadió validación nativa y por campo, estado accesible, límites, patrón telefónico y honeypot. |
@@ -22,6 +22,7 @@ Comparación del folder original de Punto 4 con esta versión.
 - Revisión de diseño con Chrome en 10 anchuras (320, 360, 390, 768, 820, 1024, 1199, 1200, 1280 y 1440 px): 70 combinaciones de página y resolución.
 - En esas pruebas se revisaron 230 instancias de imágenes, 20 presentaciones de formularios y 20 tablas dentro de contenedores desplazables; no se encontró desbordamiento de página ni contenido visible fuera del ancho.
 - En un teléfono de 320 px, las tablas se desplazan dentro de `.table-responsive` sin ensanchar la página.
+- El ajuste específico de tablet se limita a 768–991 px; el espaciado de la portada en teléfonos permanece independiente.
 - Se verificó que el menú móvil abre y cierra correctamente y que el menú expandido aparece en escritorio.
 - Pruebas automatizadas del formulario con respuestas simuladas: campos inválidos, éxito HTTP 204 sin JSON, error HTTP y honeypot.
 - Comprobación de sintaxis de JavaScript y revisión de breakpoints y recursos gráficos.
