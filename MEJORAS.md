@@ -14,6 +14,7 @@ Comparación del folder original de Punto 4 con esta versión.
 | Navegación y metadatos | No había una página específica de identidad ni una verificación de enlaces internos. | Se añadió la página de identidad al menú y al pie; se documentó la estructura y se revisaron las referencias locales. |
 | Rendimiento y publicación | El directorio carecía de recursos de marca y guía de despliegue. | La imagen de variantes pasó de 435 KB a 53 KB (reducción aproximada del 88 %); los documentos fuente se excluyen del repositorio y se preparó para hosting estático. |
 | Experiencia de usuario | No había una página completa de identidad de marca ni una sección informativa sobre testimonios. | Se añadieron el manual visual y una sección transparente que anuncia testimonios verificables cuando existan autorizaciones; no se inventaron opiniones. |
+| Encabezado de inicio | La portada mostraba una franja alta con una convocatoria 2026 que no estaba confirmada. | Se retiró esa franja de Inicio para evitar información temporal no verificada y dar más espacio visual al contenido principal. |
 
 ## Verificaciones
 
