@@ -21,6 +21,7 @@ Comparación del folder original de Punto 4 con esta versión.
 - Validación de IDs únicos, anclas, enlaces locales, imágenes con texto alternativo y acciones POST en las siete páginas.
 - Revisión de diseño con Chrome en 10 anchuras (320, 360, 390, 768, 820, 1024, 1199, 1200, 1280 y 1440 px): 70 combinaciones de página y resolución.
 - En esas pruebas se revisaron 230 instancias de imágenes, 20 presentaciones de formularios y 20 tablas dentro de contenedores desplazables; no se encontró desbordamiento de página ni contenido visible fuera del ancho.
+- En un teléfono de 320 px, las tablas se desplazan dentro de `.table-responsive` sin ensanchar la página.
 - Se verificó que el menú móvil abre y cierra correctamente y que el menú expandido aparece en escritorio.
 - Pruebas automatizadas del formulario con respuestas simuladas: campos inválidos, éxito HTTP 204 sin JSON, error HTTP y honeypot.
 - Comprobación de sintaxis de JavaScript y revisión de breakpoints y recursos gráficos.
